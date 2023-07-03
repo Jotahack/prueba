@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon indexc.js",
+    "dev": "nodemon indexc.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node indexc.js"
   },
   "author": "hector",
   "license": "ISC",
-  
-
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
