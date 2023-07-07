@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Usuarios válidos en el sistema
   const validUsers = [
-    { username: 'Agusto', password: 'contraseña1' },
-    { username: 'Hector', password: 'contraseña2' }
+    { username: 'Agusto', password: '1234' },
+    { username: 'Hector', password: '1234' }
   ];
 
   loginForm.addEventListener('submit', (event) => {
