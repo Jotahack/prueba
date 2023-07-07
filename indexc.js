@@ -1,15 +1,18 @@
-require ("dotenv").config()
-const http = require("http")
+require("dotenv").config();
+const express = require('express')
 
- function requestContoller(){
-    console.log ("holamundo ")
- }
- //configuracion del servidor
- const servidor = http.createServer(requestContoller)
+const app = express()
+const port = process.env.PORT 
+//servir archivos estaticos 
+app.use(express.static('public'));
 
-const PORT = process.env.PORT
+//configurar ruta
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
- servidor.listen(PORT,function(){
-   console.log ("aplicacion corriendo por puerto"+PORT)
- })
- 
+
+//poner a escuchar el servidor 
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})

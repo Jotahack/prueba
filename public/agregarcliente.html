@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Agregar Cliente</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="stilos.css">
 </head>
 <body>
   <h1>Agregar Cliente</h1>
@@ -27,9 +27,15 @@
     </select>
     
     <button type="submit" class="submit-button">Guardar</button>
-   <a href= "index.html" class="button">atras</a>
+    <button onclick="goToLogin()" class="button">Atrás</button>
   </form>
   
-  <script src="script.js"></script>
+  <script src="agregarcliente.js"></script>
+  
+  <script>
+    function goToLogin() {
+      window.location.href = 'Main.html';
+    }
+  </script>
 </body>
 </html>

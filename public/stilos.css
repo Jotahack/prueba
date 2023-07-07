@@ -1,0 +1,268 @@
+/* Estilos generales */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el título principal */
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los formularios */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para las etiquetas de los campos de entrada */
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Estilos para los campos de entrada de texto y selectores */
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el contenedor de mensajes */
+  .message {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para los mensajes de éxito */
+  .message.success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  
+  /* Estilos para Pantalla principal */
+  #main-screen {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .navigation-buttons button {
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+  }
+  
+  
+  /* Estilos para Organizador de Horarios */
+  #schedule {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para las columnas de horas */
+  .hour-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  /* Estilos para las horas */
+  .hour {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón de retroceso en Organizador de Horarios */
+  #schedule .button {
+    background-color: #999;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    margin: 20px auto;
+  }
+  
+  /* Estilos para la pantalla de inicio de sesión */
+  #login-screen {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los campos de entrada de inicio de sesión */
+  #login-screen input[type="text"],
+  #login-screen input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el botón de acceso */
+  #login-screen button {
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Estilos para el enlace de recuperar contraseña */
+  #login-screen a.password-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el contenedor de mensajes de error */
+  #login-screen .error-message {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    color: #cc0000;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para el título "Clean Date" en la pantalla de inicio de sesión */
+  #login-screen h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el enlace de retroceso en la pantalla de inicio de sesión */
+  #login-screen .back-button {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para el calendario */
+  #calendar {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el encabezado del calendario */
+  #calendar .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .back-button {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  /* Estilos para el título delAquí tienes el código CSS modificado para el botón de retroceso:
+  
+  ```css
+  .back-button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .back-button:hover {
+    background-color: #333;
+  }
+  

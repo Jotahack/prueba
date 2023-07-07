@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+#login-screen {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.username-input,
+.password-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.access-button {
+  background-color: #333;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.access-button:hover {
+  background-color: #555;
+}
+
+.password-link {
+  color: #777;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.password-link:hover {
+  color: #333;
+}
+
+.error-message {
+
+  border-radius: 3px;
+
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.error-message.hidden {
+  display: none;
+}
